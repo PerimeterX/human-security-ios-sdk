@@ -1,0 +1,202 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-xros1.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HUMAN
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AppleArchive
+import CommonCrypto
+import CoreGraphics
+import CoreMotion
+import CryptoKit
+import DeveloperToolsSupport
+import Foundation
+@_exported import HUMAN
+import Network
+import Security
+import Swift
+import SwiftUI
+import System
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let HumanSecurityErrorDomain: Swift.String
+@objc public enum HumanSecurityErrorType : Swift.Int {
+  case internalError = 0
+  case missingAppId = 1
+  case invalidAppId = 2
+  case startNotCalledOnMainThread = 3
+  case startCalledMoreThanOnce = 4
+  case tokenWasNotGenerated = 5
+  case startWasNotCalled = 6
+  case httpBodyInputStreamReadFailed = 7
+  case automaticInterceptorIsNotConfiguredCorrectly = 8
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc final public class HumanSecurity : ObjectiveC.NSObject {
+  @objc public static let BD: HUMAN.HSBotDefender
+  @objc public static let AD: HUMAN.HSAccountDefender
+  @objc public static func start(appId: Swift.String, policy: HUMAN.HSPolicy) throws
+  @objc public static func start(appIds: [Swift.String], policy: HUMAN.HSPolicy) throws
+  @objc public static func vid(forAppId appId: Swift.String? = nil) -> Swift.String?
+  @objc public static func setupWebView(webView: WebKit.WKWebView, navigationDelegate: (any WebKit.WKNavigationDelegate)?)
+  @objc public static func sdkVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum HSAutomaticInterceptorType : Swift.Int {
+  case none = 0
+  case intercept = 1
+  case interceptWithDelayedResponse = 2
+  case interceptAndRetryRequest = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class HSHybridAppPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc public var automaticSetup: Swift.Bool
+  @objc public var allowJavaScriptEvaluation: Swift.Bool
+  @objc public var supportExternalWebViews: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class HSAccountDefender : ObjectiveC.NSObject {
+  @objc final public func setUserId(userId: Swift.String?, forAppId appId: Swift.String?) throws
+  @objc final public func registerOutgoingUrlRequest(url: Swift.String, forAppId appId: Swift.String?) throws
+  @objc final public func setAdditionalData(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String?) throws
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct HSChallengeView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init?()
+  @_Concurrency.MainActor @preconcurrency public init?(uuid: Swift.String, flag: Swift.Int = HSChallengeModelViewHelper.shared.flag)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5HUMAN15HSChallengeViewV4bodyQrvp", 0) __
+}
+public let HSBotDefenderErrorDomain: Swift.String
+@objc public enum HSBotDefenderErrorType : Swift.Int {
+  case unknown
+  case requestWasBlocked
+  case challengeWasSolved
+  case challengeWasCancelled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum HSBotDefenderChallengeResult : Swift.Int {
+  case solved
+  case cancelled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol HSBotDefenderDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func botDefenderRequestBlocked(url: Foundation.URL?, appId: Swift.String)
+  @objc optional func botDefenderChallengeSolved(forAppId appId: Swift.String)
+  @objc optional func botDefenderChallengeCancelled(forAppId appId: Swift.String)
+  @objc optional func botDefenderChallengeRendered(forAppId appId: Swift.String)
+  @objc optional func botDefenderChallengeRenderFailed(forAppId appId: Swift.String)
+  @objc optional func botDefenderDidUpdateHeaders(headers: [Swift.String : Swift.String], forAppId appId: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class HSBotDefender : ObjectiveC.NSObject {
+  @objc weak final public var delegate: (any HUMAN.HSBotDefenderDelegate)?
+  @objc final public func headersForURLRequest(forAppId appId: Swift.String?) -> [Swift.String : Swift.String]
+  @objc final public func canHandleResponse(response: Foundation.URLResponse, data: Foundation.Data) -> Swift.Bool
+  @objc final public func handleResponse(response: Foundation.URLResponse, data: Foundation.Data, callback: ((HUMAN.HSBotDefenderChallengeResult) -> ())?) -> Swift.Bool
+  final public func blockResponseError(response: Foundation.URLResponse, data: Foundation.Data) -> (any Swift.Error)?
+  @objc final public func setCustomParameters(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String?) throws
+  @objc final public func challengeReferenceId() -> Swift.String
+  @objc final public func errorType(error: any Swift.Error) -> HUMAN.HSBotDefenderErrorType
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HSDetectionPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc public var allowTouchDetection: Swift.Bool
+  @objc public var allowDeviceMotionDetection: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class HSChallengeModelViewHelper : ObjectiveC.NSObject {
+  public static let shared: HUMAN.HSChallengeModelViewHelper
+  public var flag: Swift.Int {
+    get
+    set
+    _modify
+  }
+  public static func unregister(uuid: Swift.String)
+  public static func registerError(error: any Swift.Error, uuid: Swift.String, callback: ((HUMAN.HSBotDefenderChallengeResult) -> ())? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension HUMAN.HSChallengeModelViewHelper : Observation.Observable {
+}
+@_inheritsConvenienceInitializers @objc public class HSDoctorAppPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc final public let enabled: Swift.Bool
+  @objc public var bypassMonitorHeaderKey: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HSAutomaticInterceptorPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc final public let interceptorType: HUMAN.HSAutomaticInterceptorType
+  @objc public static var urlSessionConfiguration: Foundation.URLSessionConfiguration
+  @objc public static var urlSessionDelegate: (any Foundation.URLSessionDelegate)?
+  @objc public static var urlSessionRequestTimeout: Foundation.TimeInterval
+  @objc public static var urlSessionQueueDelegate: Foundation.OperationQueue?
+  @objc public func set(interceptedDomains domains: Swift.Set<Swift.String>, forAppId appId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class HSPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc public var hybridAppPolicy: HUMAN.HSHybridAppPolicy
+  @objc public var automaticInterceptorPolicy: HUMAN.HSAutomaticInterceptorPolicy
+  @objc public var detectionPolicy: HUMAN.HSDetectionPolicy
+  @objc public var doctorAppPolicy: HUMAN.HSDoctorAppPolicy
+  @objc public var allowSharingPolicyWithHuman: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class HSError : Foundation.NSError {
+  @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HSChallengeViewModel {
+  public static let shared: HUMAN.HSChallengeViewModel
+  public static let name: Swift.String
+  public static let width: CoreFoundation.CGFloat
+  public static let height: CoreFoundation.CGFloat
+  public var showChallenge: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+extension HUMAN.HSChallengeViewModel : Observation.Observable {
+}
+extension HUMAN.HumanSecurityErrorType : Swift.Equatable {}
+extension HUMAN.HumanSecurityErrorType : Swift.Hashable {}
+extension HUMAN.HumanSecurityErrorType : Swift.RawRepresentable {}
+extension HUMAN.HSAutomaticInterceptorType : Swift.Equatable {}
+extension HUMAN.HSAutomaticInterceptorType : Swift.Hashable {}
+extension HUMAN.HSAutomaticInterceptorType : Swift.RawRepresentable {}
+extension HUMAN.HSChallengeView : Swift.Sendable {}
+extension HUMAN.HSBotDefenderErrorType : Swift.Equatable {}
+extension HUMAN.HSBotDefenderErrorType : Swift.Hashable {}
+extension HUMAN.HSBotDefenderErrorType : Swift.RawRepresentable {}
+extension HUMAN.HSBotDefenderChallengeResult : Swift.Equatable {}
+extension HUMAN.HSBotDefenderChallengeResult : Swift.Hashable {}
+extension HUMAN.HSBotDefenderChallengeResult : Swift.RawRepresentable {}
