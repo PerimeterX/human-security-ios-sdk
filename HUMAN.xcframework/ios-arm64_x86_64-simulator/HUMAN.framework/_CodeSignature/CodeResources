@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		n6jo751DFrUmn7+Xa4M1VM8fvI0=
+		xfhkdzoPVroHGjgENjs91drmr2E=
 		</data>
 		<key>Headers/HUMAN-Swift.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wj6gyQfwUXtI4V6WZYAPo3T0Zp8=
+		wZrLl8wGLJegdzfgFoBymf8nQBU=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uQF+9NGhQpzQTuwf0pA+ZP7NO+M=
+		847rUkxbKeV30ywoFkQ1FJvwy9c=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0LZfiTXKZBQ7oy8Z5GjxF/WvMD4=
+		RNxWjkMZKe9xyqW3McT32hXwoaY=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uQF+9NGhQpzQTuwf0pA+ZP7NO+M=
+		847rUkxbKeV30ywoFkQ1FJvwy9c=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		50cr5Wr7Vr5YUw/naYS4gvHPZSQ=
+		jOJFSoLESx2yZbk6ZClLOmBQc14=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Up07c4U0Uw5CpskyOA5uUr7JK75xH8XAQGVtJca5xM0=
+			ObJpb/Cf+6dAYBp0qB61Zp4onlzk5SsYP5EluT2aPMk=
 			</data>
 		</dict>
 		<key>Headers/HUMAN-Swift.h</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KioHCso6F0UGY3DR0OR5dH9Rrz6j9MWhC5QyZ7gEwIE=
+			98t+UBD3LfNqBjKiemtk/sN7LU2KAfMqdiMHws0qx4E=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -220,14 +220,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wxafjeA+TuUTP5m4gDpKW54JCM8kheIPeHLdZ58PmJ4=
+			57VgjLOnfokm39oa+b0dl7mslKjuhmWlrICKt16RGTM=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KioHCso6F0UGY3DR0OR5dH9Rrz6j9MWhC5QyZ7gEwIE=
+			98t+UBD3LfNqBjKiemtk/sN7LU2KAfMqdiMHws0qx4E=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6pxQJMaJngdXJxswp9NJwOt436RgJz4Vh2fLcJQZ5aw=
+			A7ovTETRhbDzzagNr9FD7jjijFYDtfyEjUJunlI5zCw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
