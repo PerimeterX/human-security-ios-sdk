@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-xros1.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HUMAN
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AppleArchive
 import CommonCrypto
 import CoreGraphics
@@ -31,7 +31,9 @@ public let HumanSecurityErrorDomain: Swift.String
   case startWasNotCalled = 6
   case httpBodyInputStreamReadFailed = 7
   case automaticInterceptorIsNotConfiguredCorrectly = 8
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -42,8 +44,12 @@ public let HumanSecurityErrorDomain: Swift.String
   @objc public static let AD: HUMAN.HSAccountDefender
   @objc public static func start(appId: Swift.String, policy: HUMAN.HSPolicy) throws
   @objc public static func start(appIds: [Swift.String], policy: HUMAN.HSPolicy) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func vid(forAppId appId: Swift.String? = nil) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func setupWebView(webView: WebKit.WKWebView, navigationDelegate: (any WebKit.WKNavigationDelegate)?)
+  #endif
   @objc public static func sdkVersion() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
@@ -53,14 +59,18 @@ public let HumanSecurityErrorDomain: Swift.String
   case intercept = 1
   case interceptWithDelayedResponse = 2
   case interceptAndRetryRequest = 3
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @_inheritsConvenienceInitializers @objc public class HSHybridAppPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc public var automaticSetup: Swift.Bool
   @objc public var allowJavaScriptEvaluation: Swift.Bool
   @objc public var supportExternalWebViews: Swift.Bool
@@ -68,14 +78,24 @@ public let HumanSecurityErrorDomain: Swift.String
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class HSAccountDefender : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func setUserId(userId: Swift.String?, forAppId appId: Swift.String?) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func registerOutgoingUrlRequest(url: Swift.String, forAppId appId: Swift.String?) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func setAdditionalData(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String?) throws
+  #endif
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct HSChallengeView : SwiftUICore.View {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init?()
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init?(uuid: Swift.String, flag: Swift.Int = HSChallengeModelViewHelper.shared.flag)
+  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -87,7 +107,9 @@ public let HSBotDefenderErrorDomain: Swift.String
   case requestWasBlocked
   case challengeWasSolved
   case challengeWasCancelled
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -96,14 +118,18 @@ public let HSBotDefenderErrorDomain: Swift.String
 @objc public enum HSBotDefenderChallengeResult : Swift.Int {
   case solved
   case cancelled
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @objc public protocol HSBotDefenderDelegate : ObjectiveC.NSObjectProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc optional func botDefenderRequestBlocked(url: Foundation.URL?, appId: Swift.String)
+  #endif
   @objc optional func botDefenderChallengeSolved(forAppId appId: Swift.String)
   @objc optional func botDefenderChallengeCancelled(forAppId appId: Swift.String)
   @objc optional func botDefenderChallengeRendered(forAppId appId: Swift.String)
@@ -112,17 +138,29 @@ public let HSBotDefenderErrorDomain: Swift.String
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class HSBotDefender : ObjectiveC.NSObject {
   @objc weak final public var delegate: (any HUMAN.HSBotDefenderDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func headersForURLRequest(forAppId appId: Swift.String?) -> [Swift.String : Swift.String]
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func canHandleResponse(response: Foundation.URLResponse?, data: Foundation.Data) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func handleResponse(response: Foundation.URLResponse?, data: Foundation.Data, callback: ((HUMAN.HSBotDefenderChallengeResult) -> ())?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func blockResponseError(response: Foundation.URLResponse, data: Foundation.Data) -> (any Swift.Error)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func setCustomParameters(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String?) throws
+  #endif
   @objc final public func challengeReferenceId() -> Swift.String
   @objc final public func errorType(error: any Swift.Error) -> HUMAN.HSBotDefenderErrorType
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HSDetectionPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc public var allowTouchDetection: Swift.Bool
   @objc public var allowDeviceMotionDetection: Swift.Bool
   @objc override dynamic public init()
@@ -136,21 +174,27 @@ public let HSBotDefenderErrorDomain: Swift.String
     _modify
   }
   public static func unregister(uuid: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func registerError(error: any Swift.Error, uuid: Swift.String, callback: ((HUMAN.HSBotDefenderChallengeResult) -> ())? = nil)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
-extension HUMAN.HSChallengeModelViewHelper : Observation.Observable {
+extension HUMAN.HSChallengeModelViewHelper : nonisolated Observation.Observable {
 }
 @_inheritsConvenienceInitializers @objc public class HSDoctorAppPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc final public let enabled: Swift.Bool
   @objc public var bypassMonitorHeaderKey: Swift.String?
   @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HSAutomaticInterceptorPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc final public let interceptorType: HUMAN.HSAutomaticInterceptorType
   @objc public static var urlSessionConfiguration: Foundation.URLSessionConfiguration
   @objc public static var urlSessionDelegate: (any Foundation.URLSessionDelegate)?
@@ -161,7 +205,9 @@ extension HUMAN.HSChallengeModelViewHelper : Observation.Observable {
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HSPolicy : ObjectiveC.NSObject, Foundation.NSCopying {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
   @objc public var hybridAppPolicy: HUMAN.HSHybridAppPolicy
   @objc public var automaticInterceptorPolicy: HUMAN.HSAutomaticInterceptorPolicy
   @objc public var detectionPolicy: HUMAN.HSDetectionPolicy
@@ -171,8 +217,12 @@ extension HUMAN.HSChallengeModelViewHelper : Observation.Observable {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class HSError : Foundation.NSError {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class HSChallengeViewModel {
@@ -185,7 +235,7 @@ extension HUMAN.HSChallengeModelViewHelper : Observation.Observable {
   }
   @objc deinit
 }
-extension HUMAN.HSChallengeViewModel : Observation.Observable {
+extension HUMAN.HSChallengeViewModel : nonisolated Observation.Observable {
 }
 extension HUMAN.HumanSecurityErrorType : Swift.Equatable {}
 extension HUMAN.HumanSecurityErrorType : Swift.Hashable {}
