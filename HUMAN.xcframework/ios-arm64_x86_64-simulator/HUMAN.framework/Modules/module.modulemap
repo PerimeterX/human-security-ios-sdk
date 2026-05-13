@@ -1,7 +1,7 @@
 framework module HUMAN {
     umbrella header "HUMAN.h"
 
-    private header "PXCrashReporterProxy.h"
+    private header "HSCrashReporterProxy.h"
     
     export *
     module * { export * }
@@ -9,5 +9,4 @@ framework module HUMAN {
 
 module HUMAN.Swift {
   header "HUMAN-Swift.h"
-  requires objc
 }
