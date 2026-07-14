@@ -1,8 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-compiler-version: Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -O -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -module-name HUMAN
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AppleArchive
+import Combine
 import CommonCrypto
 import CoreGraphics
 import CoreMotion
@@ -11,7 +12,10 @@ import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 @_exported import HUMAN
+import LinkPresentation
 import Network
+import ObjectiveC
+import QuartzCore
 import Security
 import Swift
 import SwiftUI
@@ -21,6 +25,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 public let HumanSecurityErrorDomain: Swift.String
 @objc public enum HumanSecurityErrorType : Swift.Int {
   case internalError = 0
@@ -49,6 +54,37 @@ public let HumanSecurityErrorDomain: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
+public enum HumanLogLevel : Swift.Int, Swift.Comparable {
+  case error
+  case warning
+  case info
+  public static func < (lhs: HUMAN.HumanLogLevel, rhs: HUMAN.HumanLogLevel) -> Swift.Bool
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol HumanLogSink : AnyObject {
+  func write(level: HUMAN.HumanLogLevel, message: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class HumanLogger : ObjectiveC.NSObject, Swift.Sendable {
+  public static let shared: HUMAN.HumanLogger
+  final public let category: Swift.String
+  final public var isEnabled: Swift.Bool {
+    get
+    set
+  }
+  final public var minimumLevel: HUMAN.HumanLogLevel {
+    get
+    set
+  }
+  final public var sink: any HUMAN.HumanLogSink {
+    get
+    set
+  }
+  @objc deinit
+}
 @objc public enum HSAutomaticInterceptorType : Swift.Int {
   case none = 0
   case intercept = 1
@@ -75,11 +111,13 @@ public let HumanSecurityErrorDomain: Swift.String
   @objc deinit
 }
 public let HSBotDefenderErrorDomain: Swift.String
+public let HSBotDefenderChallengeFailureReasonKey: Swift.String
 @objc public enum HSBotDefenderErrorType : Swift.Int {
-  case unknown
-  case requestWasBlocked
-  case challengeWasSolved
-  case challengeWasCancelled
+  case unknown = 0
+  case requestWasBlocked = 1
+  case challengeWasSolved = 2
+  case challengeWasCancelled = 3
+  case challengeSolvedWithError = 4
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -87,8 +125,17 @@ public let HSBotDefenderErrorDomain: Swift.String
   }
 }
 @objc public enum HSBotDefenderChallengeResult : Swift.Int, Swift.Sendable {
-  case solved
-  case cancelled
+  case solved = 0
+  case cancelled = 1
+  case solvedWithError = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum HSBotDefenderChallengeFailureReason : Swift.Int, Swift.Sendable {
+  case networkError = 0
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -99,6 +146,7 @@ public let HSBotDefenderErrorDomain: Swift.String
   @objc optional func botDefenderRequestBlocked(url: Foundation.URL?, appId: Swift.String)
   @objc optional func botDefenderChallengeSolved(forAppId appId: Swift.String)
   @objc optional func botDefenderChallengeCancelled(forAppId appId: Swift.String)
+  @objc optional func botDefenderChallengeSolvedWithError(reason: HUMAN.HSBotDefenderChallengeFailureReason, forAppId appId: Swift.String)
   @objc optional func botDefenderChallengeRendered(forAppId appId: Swift.String)
   @objc optional func botDefenderChallengeRenderFailed(forAppId appId: Swift.String)
   @objc optional func botDefenderDidUpdateHeaders(headers: [Swift.String : Swift.String], forAppId appId: Swift.String)
@@ -107,8 +155,11 @@ public let HSBotDefenderErrorDomain: Swift.String
   @objc public static let domain: Swift.String
   @objc weak final public var delegate: (any HUMAN.HSBotDefenderDelegate)?
   @objc final public func headersForURLRequest(forAppId appId: Swift.String?) -> [Swift.String : Swift.String]
+  @objc final public func debugHeadersSnapshotForLogging(forAppId appId: Swift.String?) -> [Swift.String : Swift.String]
   @objc final public func canHandleBlockResponse(data: Foundation.Data) -> Swift.Bool
+  @available(*, deprecated, message: "Use handleBlockResponse(data:url:detailedCallback:) instead.")
   @objc final public func handleBlockResponse(data: Foundation.Data, url: Swift.String?, callback: (@Sendable (HUMAN.HSBotDefenderChallengeResult) -> ())?) -> Swift.Bool
+  @objc(handleBlockResponseWithData:url:detailedCallback:) final public func handleBlockResponse(data: Foundation.Data, url: Swift.String?, detailedCallback: (@Sendable (HUMAN.HSBotDefenderChallengeResult, HUMAN.HSBotDefenderChallengeFailureReason) -> ())?) -> Swift.Bool
   @objc final public func setCustomParameters(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String?) throws
   @objc final public func challengeReferenceId() -> Swift.String
   @objc deinit
@@ -127,11 +178,13 @@ public let HSBotDefenderErrorDomain: Swift.String
   nonisolated public static func unregister(uuid: Swift.String)
   @_Concurrency.MainActor public func unregister(uuid: Swift.String)
   @_Concurrency.MainActor public func handleChallengeResult(result: HUMAN.HSBotDefenderChallengeResult, appId: Swift.String)
+  @_Concurrency.MainActor public func handleChallengeResult(result: HUMAN.HSBotDefenderChallengeResult, reason: HUMAN.HSBotDefenderChallengeFailureReason, appId: Swift.String)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc @preconcurrency public class HSDoctorAppPolicy : ObjectiveC.NSObject {
   @objc public var enabled: Swift.Bool
   @objc public var bypassMonitorHeaderKey: Swift.String?
+  @objc public var appIdDisplayNames: [Swift.String : Swift.String]
   @objc override dynamic public init()
   @objc deinit
 }
@@ -145,12 +198,24 @@ public let HSBotDefenderErrorDomain: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public enum HSChallengePresentationType : Swift.Int {
+  case fullScreen
+  case bottom
+  case top
+  case center
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc @preconcurrency final public class HSPolicy : ObjectiveC.NSObject {
   @objc final public var hybridAppPolicy: HUMAN.HSHybridAppPolicy
   @objc final public var automaticInterceptorPolicy: HUMAN.HSAutomaticInterceptorPolicy
   @objc final public var detectionPolicy: HUMAN.HSDetectionPolicy
   @objc final public var doctorAppPolicy: HUMAN.HSDoctorAppPolicy
   @objc final public var allowSharingPolicyWithHuman: Swift.Bool
+  @objc final public var challengePresentationType: HUMAN.HSChallengePresentationType
   @objc override dynamic public init()
   @objc deinit
 }
@@ -169,6 +234,8 @@ public let HSBotDefenderErrorDomain: Swift.String
 extension HUMAN.HumanSecurityErrorType : Swift.Equatable {}
 extension HUMAN.HumanSecurityErrorType : Swift.Hashable {}
 extension HUMAN.HumanSecurityErrorType : Swift.RawRepresentable {}
+extension HUMAN.HumanLogLevel : Swift.Hashable {}
+extension HUMAN.HumanLogLevel : Swift.RawRepresentable {}
 extension HUMAN.HSAutomaticInterceptorType : Swift.Equatable {}
 extension HUMAN.HSAutomaticInterceptorType : Swift.Hashable {}
 extension HUMAN.HSAutomaticInterceptorType : Swift.RawRepresentable {}
@@ -178,5 +245,11 @@ extension HUMAN.HSBotDefenderErrorType : Swift.RawRepresentable {}
 extension HUMAN.HSBotDefenderChallengeResult : Swift.Equatable {}
 extension HUMAN.HSBotDefenderChallengeResult : Swift.Hashable {}
 extension HUMAN.HSBotDefenderChallengeResult : Swift.RawRepresentable {}
+extension HUMAN.HSBotDefenderChallengeFailureReason : Swift.Equatable {}
+extension HUMAN.HSBotDefenderChallengeFailureReason : Swift.Hashable {}
+extension HUMAN.HSBotDefenderChallengeFailureReason : Swift.RawRepresentable {}
 extension HUMAN.HSChallengeModelViewHelper : Swift.Sendable {}
+extension HUMAN.HSChallengePresentationType : Swift.Equatable {}
+extension HUMAN.HSChallengePresentationType : Swift.Hashable {}
+extension HUMAN.HSChallengePresentationType : Swift.RawRepresentable {}
 extension HUMAN.HSChallengeViewModel : Swift.Sendable {}
