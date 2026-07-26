@@ -216,6 +216,7 @@ public let HSBotDefenderChallengeFailureReasonKey: Swift.String
   @objc final public var doctorAppPolicy: HUMAN.HSDoctorAppPolicy
   @objc final public var allowSharingPolicyWithHuman: Swift.Bool
   @objc final public var challengePresentationType: HUMAN.HSChallengePresentationType
+  @objc final public var collectorMode: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
