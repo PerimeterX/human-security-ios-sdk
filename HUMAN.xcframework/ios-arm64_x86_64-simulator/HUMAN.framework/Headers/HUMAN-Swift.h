@@ -678,6 +678,9 @@ SWIFT_CLASS("_TtC5HUMAN8HSPolicy")
 @property (nonatomic) BOOL allowSharingPolicyWithHuman;
 /// Set the presentation type of the challenge. Default is <code>HSChallengePresentationType/fullScreen</code>.
 @property (nonatomic) enum HSChallengePresentationType challengePresentationType;
+/// QA harness hint: <code>"live"</code> (default) or <code>"mock"</code>. The SDK does not read this;
+/// TesterApp_QA installs a hermetic Collector transport when <code>"mock"</code>.
+@property (nonatomic, copy) NSString * _Nonnull collectorMode;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1437,6 +1440,9 @@ SWIFT_CLASS("_TtC5HUMAN8HSPolicy")
 @property (nonatomic) BOOL allowSharingPolicyWithHuman;
 /// Set the presentation type of the challenge. Default is <code>HSChallengePresentationType/fullScreen</code>.
 @property (nonatomic) enum HSChallengePresentationType challengePresentationType;
+/// QA harness hint: <code>"live"</code> (default) or <code>"mock"</code>. The SDK does not read this;
+/// TesterApp_QA installs a hermetic Collector transport when <code>"mock"</code>.
+@property (nonatomic, copy) NSString * _Nonnull collectorMode;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
