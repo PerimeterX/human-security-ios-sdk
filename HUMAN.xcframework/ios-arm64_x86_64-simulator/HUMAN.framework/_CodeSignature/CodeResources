@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6SgG1xUO6U6i9d7ZLcI/E1Upwvc=
+		q2OFoJV1QMDcxcBxiDijpyolHZg=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6PM7iR02LjRL2TkXq622uUfykMo=
+		nIdUe7oM8fMRSipFgboQ1Y6g50U=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8mKqVrAYbGh4PB80HONY/32alAo=
+		EV4/GjK6gpqEVXFAYRg0cFt0+Y0=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8mKqVrAYbGh4PB80HONY/32alAo=
+		EV4/GjK6gpqEVXFAYRg0cFt0+Y0=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T4BGZZlHnjM7lmxlJelUvCRlCLA=
+		MBWsSevhYjUlmK0MlyLoVlZi3ew=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6PM7iR02LjRL2TkXq622uUfykMo=
+		nIdUe7oM8fMRSipFgboQ1Y6g50U=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		g2i2M5yKgU78O7aupfHcm1TnzdA=
+		B3bZ4gbTf6WT2EDBkc8qD+gcCoc=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,107 +54,15 @@
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		g2i2M5yKgU78O7aupfHcm1TnzdA=
+		B3bZ4gbTf6WT2EDBkc8qD+gcCoc=
 		</data>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0hlgNFk6uXQTXIDfD5gMrxMrcpY=
+		ljkaUrm9HO/SE9qorCeTJ/+KHww=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		gZcwscXIm+nWfyNVER59lYtC8/E=
-		</data>
-		<key>PXStoryboard.storyboardc/HSBlockViewController.nib</key>
-		<data>
-		RutD6I217fYcR7XXNJ++jPzYsqM=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorCheckCompletedViewController.nib</key>
-		<data>
-		rMWAW5Q12wjsMno+D8twzIfBMDQ=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorExitViewController.nib</key>
-		<data>
-		IRkgYaR4a4+pNynUQJmYncSXabM=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorInstructionsViewController.nib</key>
-		<data>
-		kKZV8zqls5pTJzExuJnfD6z7mnA=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorProductSelectionViewController.nib</key>
-		<data>
-		idTu5kzYoKxCdnek9rFqbe27MMg=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorSummaryViewController.nib</key>
-		<data>
-		Qe7NekgoF6NaVs8SpTbCEXeZSro=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorTestSelectionViewController.nib</key>
-		<data>
-		vAv3J4RIxj1uJm+cQh5DKfr5p4A=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorTipsViewController.nib</key>
-		<data>
-		UO8Um+6rHTHdoxjnaTdDp/bHadY=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorViewController.nib</key>
-		<data>
-		yRIWMRloykRVrWZiDgSsTkwJJYY=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorWaitingToStartViewController.nib</key>
-		<data>
-		l9yFV+Cy2RFfxAE8Uw5LVniISRc=
-		</data>
-		<key>PXStoryboard.storyboardc/HSDoctorWelcomeViewController.nib</key>
-		<data>
-		DvnaZUx37R8ImpwC3YKEIWdc8nc=
-		</data>
-		<key>PXStoryboard.storyboardc/Info.plist</key>
-		<data>
-		MXczLBS8jw+DVd8Do9Rz8i5glQA=
-		</data>
-		<key>PXStoryboard.storyboardc/LLH-7Z-Imd-view-7Eu-gb-Chz.nib</key>
-		<data>
-		w/f693YBnr5FOEG89icy03kEsw8=
-		</data>
-		<key>PXStoryboard.storyboardc/RYV-RZ-ixt-view-LeY-J2-2rm.nib</key>
-		<data>
-		zZ8iHkpT+94vMHifvDvN3i25e9g=
-		</data>
-		<key>PXStoryboard.storyboardc/UDw-hL-7MI-view-s9K-xP-gmi.nib</key>
-		<data>
-		VKROqT7nyHbMP2uI2BRILKQWfxo=
-		</data>
-		<key>PXStoryboard.storyboardc/Xct-lQ-GhO-view-psl-PT-nAj.nib</key>
-		<data>
-		gBQOxXwBimuR8hEyWTo/iTyeKzc=
-		</data>
-		<key>PXStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		OKViAeWzJ/36/W2zP59R0DxWbdA=
-		</data>
-		<key>PXStoryboard.storyboardc/Zgx-bc-VTF-view-4UV-eP-S6f.nib</key>
-		<data>
-		nOGWiApGNPfPqqMAkaCVMuIUyV8=
-		</data>
-		<key>PXStoryboard.storyboardc/ckG-oE-IIz-view-6so-Du-xsR.nib</key>
-		<data>
-		51jZtMZhA/u4UeeSBgSsnNP1Ps8=
-		</data>
-		<key>PXStoryboard.storyboardc/gDH-X7-6lH-view-JfA-e3-dSg.nib</key>
-		<data>
-		P1vGWFdxMXDhSfhx0cp2580SlLI=
-		</data>
-		<key>PXStoryboard.storyboardc/ieB-0Y-kJS-view-gWn-j4-uOf.nib</key>
-		<data>
-		/p2df+z2WagGbuhTS98Id0hc/dc=
-		</data>
-		<key>PXStoryboard.storyboardc/xZU-Yc-Vff-view-nwm-AL-CcD.nib</key>
-		<data>
-		IRhAOvt37rgmvCwdbyFpG3lGl/c=
-		</data>
-		<key>PXStoryboard.storyboardc/z3B-dX-xqY-view-4tc-a5-3nF.nib</key>
-		<data>
-		lf6i+x5WeY1MX+VOpnEIi3midnE=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -192,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLtHdlzp4GfuhH4W9a0eRXdxJmh/o6esFDkoj7boBOA=
+			c5+jTwzJVqy/HJ0Pkq5gzD542+vAl+UGqdcvP4tlCLM=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGALnKWwOCLXu1m9IXzLW6KsGUAB5C0ngV7vpiNFWlA=
+			/TlYwKn0apc84qNYcdlqgrXPwZw/9lVsOf7zDZtr+e0=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -213,28 +121,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGALnKWwOCLXu1m9IXzLW6KsGUAB5C0ngV7vpiNFWlA=
+			/TlYwKn0apc84qNYcdlqgrXPwZw/9lVsOf7zDZtr+e0=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HOG+Hp5i3vfl7vheEumKUsHt8OSqCgSNw9pbDYBtcew=
+			a8lSRYUf6gWnrQWkcndouYZWWbC4MlPz+FIb/cwsVhg=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLtHdlzp4GfuhH4W9a0eRXdxJmh/o6esFDkoj7boBOA=
+			c5+jTwzJVqy/HJ0Pkq5gzD542+vAl+UGqdcvP4tlCLM=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCvsNcxTRcrQMx32OYzc+Tf8UvntpZfzlTkbUaqKpgI=
+			IeNsUnN9W5U0N5cBp9KzH0BjK43ZXFdASo+tYFatqKs=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -248,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCvsNcxTRcrQMx32OYzc+Tf8UvntpZfzlTkbUaqKpgI=
+			IeNsUnN9W5U0N5cBp9KzH0BjK43ZXFdASo+tYFatqKs=
 			</data>
 		</dict>
 		<key>Modules/HUMAN.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			It4TAvidBqBeeKLK5q4oEf9VY1zX/yWwdwOv7UOIQlE=
+			fe37qrD+gph7A2y7zKkNYOFmCafTmadBUktuUoHn4Cg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -263,167 +171,6 @@
 			<key>hash2</key>
 			<data>
 			OpkKcJyOkCIIkRBhcew2IDtdHTAQAEuGyTu3O9LaLOU=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSBlockViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Mp1pAQpy84rteTkQW0gvZxdbnhh33QDlo8zzqoThg9Y=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorCheckCompletedViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			w4ovZHEUngjbeoumN5ze2SDN7Yp4i0YK2MhSYctvcCo=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorExitViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U2vBhNs8dX6rbkaVmv+wdf1BvleGoPODiQmhS1Tbuds=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorInstructionsViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cfSjaVkelL7NpxXdBVot5bj1dILuIP9aJFUBnHVu0p0=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorProductSelectionViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rY5IGmGfSywQ6zE91Lz9R4XWesQDRT0NYI3ZT6AGMa0=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorSummaryViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HXuRBL2xcxttnP1X/eI2ZHMA89dGwVgmJHgBHsekDas=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorTestSelectionViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H30td7oEH19mMIlXmyOxVaT485cpB5iPDMvNNmLgDj0=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorTipsViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HX/WvEc9jFPCCL74PKmdh72CVU5Ryxgr2MUgNYDGp0c=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Noj+mzo8074jHpYuBRuNzyw7xvX6Oic6mu7RclHl7Lw=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorWaitingToStartViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tUTMfAvLOFT6pwt9gefHEEP5VrVzLIbpNTCnbVh61hw=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/HSDoctorWelcomeViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6PY6CShzRzURnHiDMuCGX0jPOCY8E+01y2qeI67zQ4w=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vbNNSWmNnnWMcIHAPxOinPAIBWivhJPqG/hx1eHF6X4=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/LLH-7Z-Imd-view-7Eu-gb-Chz.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qdSjr+LKPkMHBVcaMZgkFDOEqRgc4Yb3fPl5OCwqoF8=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/RYV-RZ-ixt-view-LeY-J2-2rm.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5BChHytLDKVLtQeLcqwVkJ36mcvpr4qbXtIaNCHnR08=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/UDw-hL-7MI-view-s9K-xP-gmi.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+PPXPE32l0yiP3e+4ZwiMZ2n41uFmO9ngUXxiMdOUm4=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/Xct-lQ-GhO-view-psl-PT-nAj.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TScRerub2wwOTOu9VSLUUhUFeqIwYyhB8eP95r1LxAo=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ie02Q7IuRsug1lL2dpCMPHm+zgCcS08DUa2owd9sxrg=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/Zgx-bc-VTF-view-4UV-eP-S6f.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UY0sb0hIxhewrpnSiJMvAkvLySUnKihBdoTlU0UCmq0=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/ckG-oE-IIz-view-6so-Du-xsR.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AclbTnH6Ffg+ivKG9ewFfTXjRdsDeth5I/JVvRjrtRI=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/gDH-X7-6lH-view-JfA-e3-dSg.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			poKK7FgBqPBxvGp5gTmc4YiuxgNass7wbOg8r8OFy1E=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/ieB-0Y-kJS-view-gWn-j4-uOf.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hF2nvxvN9BXOi/5SL9Vc7+CoSbOWd4YV/S+nvo2vnkY=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/xZU-Yc-Vff-view-nwm-AL-CcD.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/I6mf2d29Ob9eJC+21d51E80pRjakcrv7F9my/NzN4I=
-			</data>
-		</dict>
-		<key>PXStoryboard.storyboardc/z3B-dX-xqY-view-4tc-a5-3nF.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5VRcxpGuroK9csyQbW71mYGkRhyr+6jlKWfi9ipsyWU=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

@@ -26,13 +26,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "HUMAN",
         "declAttributes": [
           "RawDocComment"
@@ -60,20 +53,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "HUMAN",
         "declAttributes": [
           "RawDocComment"
@@ -88,20 +67,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -2461,6 +2426,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreFoundation",
+        "printedName": "CoreFoundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2478,6 +2460,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -2982,20 +2981,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "HUMAN",
         "declAttributes": [
           "RawDocComment"
@@ -3081,37 +3066,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -3435,20 +3389,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -3958,23 +3898,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4111,20 +4034,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -6037,23 +5946,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "HSDetectionPolicy",
         "printedName": "HSDetectionPolicy",
@@ -7332,20 +7224,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "HUMAN",
         "declAttributes": [
           "RawDocComment"
@@ -7383,6 +7261,88 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "CFNetwork",
+        "printedName": "CFNetwork",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "GameController",
+        "printedName": "GameController",
+        "declKind": "Import",
+        "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7477,47 +7437,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -7696,23 +7615,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "System",
         "printedName": "System",
         "declKind": "Import",
@@ -7872,20 +7774,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -8653,20 +8541,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
       },
       {
         "kind": "Import",
@@ -10320,23 +10194,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10393,23 +10250,6 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "HUMAN"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HUMAN"
       },
@@ -10580,13 +10420,6 @@
       "offset": 490,
       "length": 16,
       "value": "\"PXReachability\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/UI\/iOS\/HSDoctorSummaryViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 584,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Models\/HSCollectorResponse.swift",
@@ -13566,9 +13399,128 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 711,
+      "length": 55,
+      "value": "\"com.humansecurity.sdk.localDataDurableRepairCompleted\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2193,
       "length": 15,
       "value": "\"genral_app_id\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3211,
+      "length": 49,
+      "value": "\"com.humansecurity.sdk.localdata.repair-schedule\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11948,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12857,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23761,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataFileBackup.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataFileBackup.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 8,
+      "value": "\"values\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataFileBackup.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Local_Data\/HSLocalDataFileBackup.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 41,
+      "value": "\"com.humansecurity.sdk.local-data.backup\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 8,
+      "value": "\"_pxvid\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 52,
+      "value": "\"com.humansecurity.sdk.hybrid-cookie-recovery.state\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "IntegerLiteral",
+      "offset": 706,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSHybridCookieRecovery.swift",
+      "kind": "BooleanLiteral",
+      "offset": 738,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Web_View_Interception\/HSWebViewCommunicationMethod.swift",
@@ -14101,6 +14053,13 @@
       "offset": 765,
       "length": 2,
       "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceBasicInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2403,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSKnowMe.swift",
@@ -16302,43 +16261,50 @@
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/HSDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/HSDoctorManager.swift",
       "kind": "StringLiteral",
-      "offset": 4797,
+      "offset": 4649,
       "length": 15,
       "value": "\"HUMAN.HSDoctorManager\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1305,
+      "offset": 1468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1347,
+      "offset": 1510,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1394,
+      "offset": 1557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionManager.swift",
       "kind": "Array",
-      "offset": 2467,
+      "offset": 2630,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3700,
+      "offset": 3900,
       "length": 1,
       "value": "0"
     },
@@ -17362,7 +17328,7 @@
       "kind": "StringLiteral",
       "offset": 5785,
       "length": 7,
-      "value": "\"5.2.0\""
+      "value": "\"5.3.0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
@@ -17730,617 +17696,645 @@
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
+      "kind": "FloatLiteral",
+      "offset": 10534,
+      "length": 5,
+      "value": "0.075"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10591,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10640,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
+      "kind": "FloatLiteral",
+      "offset": 10742,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10792,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10524,
+      "offset": 10848,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10552,
+      "offset": 10876,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10585,
+      "offset": 10909,
       "length": 9,
       "value": "\"_pxmvid\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10649,
+      "offset": 10973,
       "length": 8,
       "value": "\"_pxwvm\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10709,
+      "offset": 11033,
       "length": 7,
       "value": "\"_pxmd\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10779,
+      "offset": 11103,
       "length": 7,
       "value": "\"_pxcl\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10853,
+      "offset": 11177,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10924,
+      "offset": 11248,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11528,
+      "offset": 11852,
       "length": 7,
       "value": "\"_pxmd\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11663,
+      "offset": 11987,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11824,
+      "offset": 12148,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11881,
+      "offset": 12205,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11930,
+      "offset": 12254,
       "length": 18,
       "value": "\"HumanSecuritySDK\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11974,
+      "offset": 12298,
       "length": 23,
       "value": "\"com.humansecurity.sdk\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12064,
+      "offset": 12388,
       "length": 30,
       "value": "\"com.perimeterx.mobile_sdk.%@\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 12171,
+      "offset": 12495,
       "length": 68,
       "value": "[\"5792fdea2482cf45cb160bca8bb615a3a33848890e3fdcd29038d9d04a14e9bf\"]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 12339,
+      "offset": 12663,
       "length": 166,
       "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 12572,
+      "offset": 12896,
       "length": 300,
       "value": "[\"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/bin\/bash\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\", \"\/private\/var\/lib\/apt\/\"]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 12913,
+      "offset": 13237,
       "length": 284,
       "value": "[\"\/bin\/bash\", \"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\"]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13229,
+      "offset": 13553,
       "length": 16,
       "value": "\"this is a test\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13275,
+      "offset": 13599,
       "length": 24,
       "value": "\"\/private\/jailbreak.txt\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13377,
+      "offset": 13701,
       "length": 12,
       "value": "\"pxResponse\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13438,
+      "offset": 13762,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13536,
+      "offset": 13860,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13611,
+      "offset": 13935,
       "length": 5,
       "value": "\"4.0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13653,
+      "offset": 13977,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13721,
+      "offset": 14045,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 13789,
+      "offset": 14113,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13831,
+      "offset": 14155,
       "length": 31,
       "value": "\"didFinishLaunchingWithOptions\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13905,
+      "offset": 14229,
       "length": 5,
       "value": "\"m=1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13988,
+      "offset": 14312,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14048,
+      "offset": 14372,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14118,
+      "offset": 14442,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14169,
+      "offset": 14493,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14224,
+      "offset": 14548,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14300,
+      "offset": 14624,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14355,
+      "offset": 14679,
       "length": 13,
       "value": "\"%@.\t%@\n\n\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14428,
+      "offset": 14752,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14486,
+      "offset": 14810,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14547,
+      "offset": 14871,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14600,
+      "offset": 14924,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14652,
+      "offset": 14976,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14698,
+      "offset": 15022,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14766,
+      "offset": 15090,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14836,
+      "offset": 15160,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14846,
+      "offset": 15170,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14857,
+      "offset": 15181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14867,
+      "offset": 15191,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14945,
+      "offset": 15269,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14954,
+      "offset": 15278,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14966,
+      "offset": 15290,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 14976,
+      "offset": 15300,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 15057,
+      "offset": 15381,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 15131,
+      "offset": 15455,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 15171,
+      "offset": 15495,
       "length": 14,
       "value": "\"PhantomJS\/%@\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 15227,
+      "offset": 15551,
       "length": 19,
       "value": "\"px:\/\/instructions\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 15286,
+      "offset": 15610,
       "length": 20,
       "value": "\"doctor_app_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 15343,
+      "offset": 15667,
       "length": 94,
       "value": "\"https:\/\/edocs.humansecurity.com\/docs\/mobile-sdk-how-to-verify-the-integration-in-your-app-v5\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 16422,
+      "offset": 16746,
       "length": 22,
       "value": "\"com.human.DoctorView\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16480,
+      "offset": 16804,
       "length": 4,
       "value": "1280"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16521,
+      "offset": 16845,
       "length": 3,
       "value": "720"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16586,
+      "offset": 16910,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16642,
+      "offset": 16966,
       "length": 13,
       "value": "1000000000"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16722,
+      "offset": 17046,
       "length": 13,
       "value": "1500000000"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 16806,
+      "offset": 17130,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16898,
+      "offset": 17222,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 16955,
+      "offset": 17279,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17054,
+      "offset": 17378,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 17111,
+      "offset": 17435,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 17117,
+      "offset": 17441,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 17233,
+      "offset": 17557,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 17291,
+      "offset": 17615,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17355,
+      "offset": 17679,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17410,
+      "offset": 17734,
       "length": 3,
       "value": "340"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17463,
+      "offset": 17787,
       "length": 3,
       "value": "320"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17516,
+      "offset": 17840,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 17583,
-      "length": 14,
-      "value": "\"PXStoryboard\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
-      "kind": "StringLiteral",
-      "offset": 17653,
+      "offset": 17899,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 17685,
+      "offset": 17931,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17720,
+      "offset": 17966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 17749,
+      "offset": 17995,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 17841,
+      "offset": 18087,
       "length": 55,
       "value": "\"https:\/\/edocs.humansecurity.com\/docs\/mobile-sdk-intro\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 17952,
+      "offset": 18198,
       "length": 14,
       "value": "\"HUMAN.bundle\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 17992,
+      "offset": 18238,
       "length": 13,
       "value": "\"bundle.json\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 18324,
+      "offset": 18570,
       "length": 25,
       "value": "\"com.human.ChallengeView\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 18388,
+      "offset": 18634,
       "length": 3,
       "value": "562"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 18431,
+      "offset": 18677,
       "length": 3,
       "value": "364"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 18460,
+      "offset": 18706,
       "length": 3,
       "value": "0.5"
     },
@@ -18357,6 +18351,153 @@
       "offset": 337,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsProbeFailures.swift",
+      "kind": "Array",
+      "offset": 466,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 17,
+      "value": "\"last_app_launch\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 21,
+      "value": "\"last_app_foreground\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 21,
+      "value": "\"last_app_background\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 19,
+      "value": "\"last_app_inactive\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 18,
+      "value": "\"last_api_request\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 17,
+      "value": "\"last_user_touch\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 13,
+      "value": "\"duration_ms\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 944,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 38,
+      "value": "\"com.humansecurity.activityEvent.save\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 277,
+      "length": 20,
+      "value": "[\"game_controllers\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 427,
+      "length": 22,
+      "value": "[\"keyboard_connected\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 492,
+      "length": 31,
+      "value": "[\"count\", \"types\", \"has_depth\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 564,
+      "length": 43,
+      "value": "[\"input_type_counts\", \"output_type_counts\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 653,
+      "length": 30,
+      "value": "[\"secure_enclave\", \"software\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 733,
+      "length": 28,
+      "value": "[\"available\", \"unsupported\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 816,
+      "length": 36,
+      "value": "[\"face\", \"touch\", \"none\", \"unknown\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 900,
+      "length": 34,
+      "value": "[\"true\", \"false\", \"missing_value\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "Array",
+      "offset": 974,
+      "length": 15,
+      "value": "[\"edr\", \"none\"]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
+      "kind": "StringLiteral",
+      "offset": 1050,
+      "length": 15,
+      "value": "\"missing_value\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
@@ -18835,74 +18976,242 @@
       "value": "\"PX21252\""
     },
     {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3131,
+      "length": 9,
+      "value": "\"PX21253\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3175,
+      "length": 9,
+      "value": "\"PX21254\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3219,
+      "length": 9,
+      "value": "\"PX21255\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3263,
+      "length": 9,
+      "value": "\"PX21256\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3307,
+      "length": 9,
+      "value": "\"PX21257\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3351,
+      "length": 9,
+      "value": "\"PX21258\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3395,
+      "length": 9,
+      "value": "\"PX21259\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3439,
+      "length": 9,
+      "value": "\"PX21260\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3494,
+      "length": 9,
+      "value": "\"PX21261\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3538,
+      "length": 9,
+      "value": "\"PX21262\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3582,
+      "length": 9,
+      "value": "\"PX21263\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3626,
+      "length": 9,
+      "value": "\"PX21264\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3670,
+      "length": 9,
+      "value": "\"PX21265\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3714,
+      "length": 9,
+      "value": "\"PX21266\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3758,
+      "length": 9,
+      "value": "\"PX21267\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3802,
+      "length": 9,
+      "value": "\"PX21268\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3846,
+      "length": 9,
+      "value": "\"PX21269\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3890,
+      "length": 9,
+      "value": "\"PX21270\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3934,
+      "length": 9,
+      "value": "\"PX21271\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 3978,
+      "length": 9,
+      "value": "\"PX21272\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4022,
+      "length": 9,
+      "value": "\"PX21273\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4066,
+      "length": 9,
+      "value": "\"PX21274\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 9,
+      "value": "\"PX21275\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4154,
+      "length": 9,
+      "value": "\"PX21276\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4198,
+      "length": 9,
+      "value": "\"PX21277\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4242,
+      "length": 9,
+      "value": "\"PX21278\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4286,
+      "length": 9,
+      "value": "\"PX21279\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4330,
+      "length": 9,
+      "value": "\"PX21280\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 9,
+      "value": "\"PX21281\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4418,
+      "length": 9,
+      "value": "\"PX21282\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4462,
+      "length": 9,
+      "value": "\"PX21283\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4506,
+      "length": 9,
+      "value": "\"PX21284\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/API_Data\/HSFieldsMapping.swift",
+      "kind": "StringLiteral",
+      "offset": 4551,
+      "length": 9,
+      "value": "\"PX21285\""
+    },
+    {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Extensions\/JSONSerialization+PX.swift",
       "kind": "Array",
       "offset": 247,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 17,
-      "value": "\"last_app_launch\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 21,
-      "value": "\"last_app_foreground\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 326,
-      "length": 21,
-      "value": "\"last_app_background\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 379,
-      "length": 19,
-      "value": "\"last_app_inactive\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 18,
-      "value": "\"last_api_request\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 17,
-      "value": "\"last_user_touch\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 693,
-      "length": 13,
-      "value": "\"duration_ms\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "Dictionary",
-      "offset": 944,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 38,
-      "value": "\"com.humansecurity.activityEvent.save\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Business_Logic\/HSBusinessLogicManager.swift",
@@ -21924,7 +22233,7 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/Model\/HSDoctorSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 434,
+      "offset": 362,
       "length": 5,
       "value": "false"
     },
@@ -21946,13 +22255,6 @@
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/Model\/Summary\/HSSummary.swift",
       "kind": "BooleanLiteral",
       "offset": 201,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/UI\/iOS\/HSDoctorSummaryHeaderTableViewCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2061,
       "length": 5,
       "value": "false"
     },
