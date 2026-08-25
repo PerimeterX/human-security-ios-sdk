@@ -7403,16 +7403,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HUMAN",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7615,6 +7605,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "System",
         "printedName": "System",
         "declKind": "Import",
@@ -7633,6 +7633,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HUMAN"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HUMAN",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -13721,42 +13731,56 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
       "kind": "Array",
-      "offset": 637,
+      "offset": 683,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1490,
+      "offset": 1683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
       "kind": "Dictionary",
-      "offset": 2087,
+      "offset": 2333,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
       "kind": "Dictionary",
-      "offset": 2265,
+      "offset": 2511,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Session\/HSSessionsManager.swift",
       "kind": "Dictionary",
-      "offset": 2615,
+      "offset": 2861,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/Motion_Detection\/HSDeviceMotionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/Motion_Detection\/HSDeviceMotionManager.swift",
       "kind": "Array",
-      "offset": 637,
+      "offset": 863,
       "length": 2,
       "value": "[]"
     },
@@ -16262,7 +16286,7 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/HSDoctorManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5718,
+      "offset": 6223,
       "length": 4,
       "value": "true"
     },
@@ -16381,7 +16405,14 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Requests_Interceptor\/HSURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9624,
+      "offset": 7734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Requests_Interceptor\/HSURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11174,
       "length": 5,
       "value": "false"
     },
@@ -17328,7 +17359,7 @@
       "kind": "StringLiteral",
       "offset": 5785,
       "length": 7,
-      "value": "\"5.3.0\""
+      "value": "\"5.3.1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
@@ -18358,69 +18389,6 @@
       "offset": 466,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 224,
-      "length": 17,
-      "value": "\"last_app_launch\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 21,
-      "value": "\"last_app_foreground\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 326,
-      "length": 21,
-      "value": "\"last_app_background\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 379,
-      "length": 19,
-      "value": "\"last_app_inactive\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 18,
-      "value": "\"last_api_request\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 17,
-      "value": "\"last_user_touch\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 693,
-      "length": 13,
-      "value": "\"duration_ms\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "Dictionary",
-      "offset": 944,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
-      "kind": "StringLiteral",
-      "offset": 997,
-      "length": 38,
-      "value": "\"com.humansecurity.activityEvent.save\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Device\/HSDeviceExtraSignalsGoldenVectors.swift",
@@ -22257,6 +22225,76 @@
       "offset": 201,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/HSDoctorAssetsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 17,
+      "value": "\"last_app_launch\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 21,
+      "value": "\"last_app_foreground\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 21,
+      "value": "\"last_app_background\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 19,
+      "value": "\"last_app_inactive\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 18,
+      "value": "\"last_api_request\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 17,
+      "value": "\"last_user_touch\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 13,
+      "value": "\"duration_ms\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "Dictionary",
+      "offset": 944,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Detections\/Activity_Events\/HSActivityEventTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 38,
+      "value": "\"com.humansecurity.activityEvent.save\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Logger\/HSLogger.swift",
