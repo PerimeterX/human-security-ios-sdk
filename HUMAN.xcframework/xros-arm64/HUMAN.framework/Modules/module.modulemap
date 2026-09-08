@@ -1,7 +1,8 @@
 framework module HUMAN {
     umbrella header "HUMAN.h"
 
-    private header "HSCrashReporterProxy.h"
+    private header "PXCrashReporterProxy.h"
+    private header "PXUIKitExceptionCatcher.h"
     
     export *
     module * { export * }

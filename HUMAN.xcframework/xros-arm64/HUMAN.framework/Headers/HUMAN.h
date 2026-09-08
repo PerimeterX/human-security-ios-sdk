@@ -1,6 +1,6 @@
 //
 //  HUMAN.h
-//  HUMAN Security
+//  HUMAN
 //
 
 #import <Foundation/Foundation.h>
