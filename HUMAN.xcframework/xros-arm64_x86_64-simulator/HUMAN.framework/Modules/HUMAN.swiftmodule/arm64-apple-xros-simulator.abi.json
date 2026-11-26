@@ -10765,9 +10765,11 @@
         "usr": "c:objc(cs)UIView",
         "moduleName": "UIKit",
         "isOpen": true,
+        "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
           "Preconcurrency",
+          "Available",
           "Available",
           "ObjC",
           "NonSendable",
@@ -15644,7 +15646,7 @@
       "kind": "StringLiteral",
       "offset": 5785,
       "length": 7,
-      "value": "\"5.3.2\""
+      "value": "\"5.3.3\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Configuratiions\/HSSDKConfigurations.swift",
@@ -17913,20 +17915,6 @@
       "offset": 402,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/UI\/visionOS\/HSDisplayConfettiModifier.swift",
-      "kind": "IntegerLiteral",
-      "offset": 516,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/UI\/visionOS\/HSDisplayConfettiModifier.swift",
-      "kind": "BooleanLiteral",
-      "offset": 547,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/HUMAN\/SDK\/Doctor_App\/Legacy\/UI\/visionOS\/HSDisplayConfettiModifier.swift",
